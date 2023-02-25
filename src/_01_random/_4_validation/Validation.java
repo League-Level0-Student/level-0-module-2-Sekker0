@@ -21,13 +21,18 @@ public class Validation {
 			JOptionPane.showMessageDialog(null, "You Are Good At Coding");
 		}
 		if (randomNumber == 1) {
-			
+			JOptionPane.showMessageDialog(null, "You Are Nice To Other People!");
 		}
-		if
-		if
-		if
+		if (randomNumber == 2) {
+			JOptionPane.showMessageDialog(null, "You Are Good At Everthing!");
+		}
+		if (randomNumber == 3) {
+			JOptionPane.showMessageDialog(null, "You Are Good At Sports");
+		}
+		if (randomNumber == 4) {
+			JOptionPane.showMessageDialog(null, "You Look Good!");
+		}
 		// 2. Repeat all the code above 10 times
 		
 		// 3. Find someone to test out your program. They will like it :)
-	}
-}
+}}
