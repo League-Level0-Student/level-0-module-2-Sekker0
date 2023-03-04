@@ -24,14 +24,32 @@ public class AnimalFarm {
 	}
 	
 	void animals() {
-
+		boolean running = true;
 		/* 1. Ask the user which animal they want, then see and hear 
 		 *    the animal they chose using one of the methods below.
 		*/			 
-			
+		while(running) {
+		String question = JOptionPane.showInputDialog("Which Animal Do You Want?");
 		/* 2. Make it so that the user can keep entering new animals. */
-
-	}
+		if(question.equalsIgnoreCase("StOp")) {
+			running = false;
+		}
+		if(question.equalsIgnoreCase("Cow")) {
+			moo();
+		}
+		if(question.equalsIgnoreCase("Duck")) {
+			quack();
+		}
+		if(question.equalsIgnoreCase("Dog")) {
+			woof();
+		}
+		if(question.equalsIgnoreCase("Cat")) {
+			meow();
+		}
+		if(question.equalsIgnoreCase("Llama")) {
+			llamaScream();
+		}
+		}}
 
 	void moo() {
 		playNoise(mooFile);
